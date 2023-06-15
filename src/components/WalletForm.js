@@ -94,7 +94,7 @@ class WalletForm extends Component {
         </label>
 
         <label htmlFor="method">
-          <p>Forma de Pagamento</p>
+          <h3>Forma de Pagamento</h3>
           <select
             name="method"
             data-testid="method-input"
@@ -108,7 +108,7 @@ class WalletForm extends Component {
         </label>
 
         <label htmlFor="category">
-          <p>Categoria</p>
+          <h3>Categoria</h3>
           <select
             name="tag"
             data-testid="tag-input"
