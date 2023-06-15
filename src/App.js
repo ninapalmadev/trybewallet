@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './pages/Login';
-import Wallet from './pages/Wallet';
+import wallet from './pages/Wallet';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={ Login } />
-          <Route path="/carteira" exact component={ Wallet } />
+          <Route path="/carteira" exact component={ wallet } />
         </Switch>
       </BrowserRouter>
     </div>
