@@ -45,7 +45,9 @@ class Login extends React.Component {
     const { email, password, disabled, logged } = this.state;
     return (
       <div>
+        <h2>Trybewallet</h2>
         <label htmlFor="email">
+          Email
           <input
             data-testid="email-input"
             name="email"
@@ -56,6 +58,7 @@ class Login extends React.Component {
           />
         </label>
         <label htmlFor="password">
+          Senha
           <input
             data-testid="password-input"
             name="password"

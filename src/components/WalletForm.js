@@ -37,6 +37,7 @@ class WalletForm extends Component {
       tag,
       value,
     };
+
     dispatchHandleFetchApi(expense);
     console.log(exchangeRates);
     this.setState({
